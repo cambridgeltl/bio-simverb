@@ -16,6 +16,8 @@ batch_eval.sh: The script to produce the intrinsic evaluation in this paper.
 
 Example Usage: ./batch_eval.sh 'FOLDER/to/vectorfile'
 
+The evaluation score will be printed on screen
+
 ## 2. For extrinsic evaluation: (folder: NER)
 
 Main files in the NER folder:
