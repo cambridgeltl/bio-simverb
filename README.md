@@ -2,18 +2,23 @@
 This repository contains the evaluation dataset for the paper Bio-SimVerb and Bio-SimLex: Wide-coverage Evaluation Sets of Word Similarity in Biomedicine by Billy Chiu, Sampo Pyysalo and Anna Korhonen.
 
 There are two main evaluations: 
+
 For intrinsic evaluation: (folder: wvlib): 
+
 There are several main files in the wvlib folder:
 
 word-similarities: all intrinsic evaluation datasets used in this paper
 
 evalrank.py: perform intrinsic evaluation.
+
 Example Usage: python evalrank.py -q 'path/to/vectorfile' 'path/to/dataset' 
 
 batch_eval.sh: The script to produce the extrinsic score in this paper. 
+
 Example Usage: ./batch_eval.sh 'FOLDER/to/vectorfile'
 
-For extrinsic evaluation: (folder: NER
+For extrinsic evaluation: (folder: NER)
+
 There are several files in the NER folder:
 
 The corpora used for the experiments (which can be re-distributed) are in the data folder.
@@ -32,7 +37,6 @@ baseline_config.py: The configurable variables and their values for the MLP base
 config.py: The configurable variables and their values for the convolutional models.
 
 run-wordvecs.sh: The script to produce the extrinsic score in this paper. 
-
 
 Example Usage: ./run-wordvecs.sh
 
