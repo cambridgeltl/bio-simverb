@@ -3,9 +3,8 @@ This repository contains the evaluation datasets for the paper Bio-SimVerb and B
 
 There are two evaluations mentioned in this paper: 
 
-1. For intrinsic evaluation: (folder: wvlib): 
-
-⋅⋅* Main files in the wvlib folder:
+## 1. For intrinsic evaluation: (folder: wvlib): 
+Main files in the wvlib folder:
 
 word-similarities: all intrinsic evaluation datasets used in this paper
 
@@ -17,7 +16,7 @@ batch_eval.sh: The script to produce the intrinsic evaluation in this paper.
 
 Example Usage: ./batch_eval.sh 'FOLDER/to/vectorfile'
 
-2. For extrinsic evaluation: (folder: NER)
+## 2. For extrinsic evaluation: (folder: NER)
 
 Main files in the NER folder:
 
