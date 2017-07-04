@@ -13,7 +13,7 @@ Example Usage: python evalrank.py -q 'path/to/vectorfile' 'path/to/dataset'
 batch_eval.sh: The script to produce the extrinsic score in this paper. 
 Example Usage: ./batch_eval.sh 'FOLDER/to/vectorfile'
 
-For extrinsic evaluation (NER): (folder: NER
+For extrinsic evaluation: (folder: NER
 There are several files in the NER folder:
 
 The corpora used for the experiments (which can be re-distributed) are in the data folder.
@@ -32,8 +32,12 @@ baseline_config.py: The configurable variables and their values for the MLP base
 config.py: The configurable variables and their values for the convolutional models.
 
 run-wordvecs.sh: The script to produce the extrinsic score in this paper. 
+
+
 Example Usage: ./run-wordvecs.sh
 
 The model will output two files:
+
 logs: store the f-score for the NER. 
+
 predictions: store the prediction outputted by the NER model.
