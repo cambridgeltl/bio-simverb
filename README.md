@@ -5,7 +5,7 @@ There are two evaluations mentioned in this paper:
 
 For intrinsic evaluation: (folder: wvlib): 
 
-There are several main files in the wvlib folder:
+Main files in the wvlib folder:
 
 word-similarities: all intrinsic evaluation datasets used in this paper
 
@@ -13,13 +13,13 @@ evalrank.py: perform intrinsic evaluation.
 
 Example Usage: python evalrank.py -q 'path/to/vectorfile' 'path/to/dataset' 
 
-batch_eval.sh: The script to produce the extrinsic score in this paper. 
+batch_eval.sh: The script to produce the intrinsic evaluation in this paper. 
 
 Example Usage: ./batch_eval.sh 'FOLDER/to/vectorfile'
 
 For extrinsic evaluation: (folder: NER)
 
-There are several files in the NER folder:
+Main files in the NER folder:
 
 The corpora used for the experiments (which can be re-distributed) are in the data folder.
 **Note:**The re-distribution status of the BioCreative IV Chemical and Drug (BC4CHEMD) named entity recognition task corpus is unclear but it can be publicly accessed at http://www.biocreative.org/tasks/biocreative-v/track-3-cdr/.
@@ -36,7 +36,7 @@ baseline_config.py: The configurable variables and their values for the MLP base
 
 config.py: The configurable variables and their values for the convolutional models.
 
-run-wordvecs.sh: The script to produce the extrinsic score in this paper. 
+run-wordvecs.sh: The script to produce the extrinsic evaluation in this paper. 
 
 Example Usage: ./run-wordvecs.sh
 
