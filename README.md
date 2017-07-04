@@ -5,7 +5,7 @@ There are two evaluations mentioned in this paper:
 
 1. For intrinsic evaluation: (folder: wvlib): 
 
-Main files in the wvlib folder:
+⋅⋅* Main files in the wvlib folder:
 
 word-similarities: all intrinsic evaluation datasets used in this paper
 
