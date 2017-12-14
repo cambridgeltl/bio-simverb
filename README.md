@@ -1,6 +1,9 @@
 # bio-simverb
 This repository contains the evaluation datasets for the paper Bio-SimVerb and Bio-SimLex: Wide-coverage Evaluation Sets of Word Similarity in Biomedicine by Billy Chiu, Sampo Pyysalo and Anna Korhonen.
 
+## 0. Bio-SimVerb and Bio-SimLex:
+The evaluation datasets created in this paper can be download via: https://drive.google.com/file/d/0BzMCqpcgEJgiZXNIWjhGRmQxRUU/view
+
 There are two evaluations mentioned in this paper: 
 
 ## 1. For intrinsic evaluation: (folder: wvlib): 
